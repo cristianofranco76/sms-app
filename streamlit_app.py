@@ -1,10 +1,6 @@
-try:
-    import streamlit as st
-    import pandas as pd
-    import openpyxl
-except ModuleNotFoundError as e:
-    print(f"Erro: O módulo {e.name} não está instalado. Instale com 'pip install {e.name}' e tente novamente.")
-    exit()
+import streamlit as st
+import pandas as pd
+import openpyxl
 
 def selecionar_rota(df, modo='normal'):
     """
