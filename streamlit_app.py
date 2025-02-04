@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-st.title("🎈 SMS Price APP")
-st.write(
 def selecionar_rota(df, modo='normal'):
     """
     Seleciona a melhor operadora com base na métrica de custo efetivo.
@@ -61,4 +59,3 @@ if uploaded_file is not None:
         st.error(f"Erro ao ler o arquivo: {e}")
 else:
     st.info("Por favor, carregue um arquivo com os dados para continuar.")
-)
