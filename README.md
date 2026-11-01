@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# 🎈 SMS APP TEMPLATE
 
 A simple Streamlit app template for you to modify!
 
